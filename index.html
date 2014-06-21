@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<title>Data Products Assignment Part 2</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=1274, user-scalable=no">
+	<meta name="description" content="Data Products Assignment Part 2">
+	<meta name="author" content="Jim McCarthy">
+	<meta name="generator" content="slidify" />
+	<!-- LOAD STYLE SHEETS -->
+	<link rel="stylesheet" href="libraries/frameworks/shower/themes/ribbon/styles/screen.css">
+	<link rel="stylesheet" media="print"
+	  href="libraries/frameworks/shower/themes/ribbon/styles/print.css">
+	<link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css">  <link rel="stylesheet" href = "assets/css/ribbons.css">
+
+	<!--
+		To apply styles to the certain slides
+		use slide ID to get needed elements
+		-->
+	<style>
+		#Cover h2 {
+      margin:65px 0 0;
+			color:#FFF;
+			text-align:center;
+			font-size:70px;
+			}
+		#FitToWidth h2,
+		#FitToHeight h2 {
+			color:#FFF;
+			text-align:center;
+			}
+	</style> 
+</head>
+<body class="list">
+  <header class="caption">
+  	<h1>Data Products Assignment Part 2</h1>
+	</header>
+  <section class="slide " id="slide-1">
+  <div>
+    <h2>What is BMI?</h2>
+    <p>Body mass index (BMI) is a measure of weight adjusted for height, calculated as weight 
+in kilograms divided by the square of height in meters (kg/m2) \(^1\). Although BMI is often considered an indicator of body fatness, it is often criticised for over-stating or under-stating a person&#39;s health due to other factors such as age, gender, body shape, socio-economic status or domicile (city, rural) which are not considered.  </p>
+
+<p>For example, some highly athletic professional footballers may have BMI&#39;s that would put them into an Overweight category!</p>
+
+  </div>
+</section>
+<section class="slide " id="slide-2">
+  <div>
+    <h2>BMI Adjusted for Age and Gender</h2>
+    <p>The Shiny app, BMI Calculator, accepts input a person&#39;s weight, height, age and gender and calculates an adjusted BMI according to Qiu\(^2\)</p>
+
+<p>\[ BMI = \frac {W} {H^{2.40} {\exp {(-0.039 gender + 0.011 age - 0.0001  age^2) }}}\]</p>
+
+<p><b>Usage:</b> Enter Height in metres &amp; Weight in kilograms<br>
+Select the radio button Gender (Male or Female), Age from the slider &amp; hit Submit<br></p>
+
+  </div>
+</section>
+<section class="slide " id="slide-3">
+  <div>
+    <h2>Conclusion</h2>
+    <p>BMI is a reasonable indicator of body fat for both adults and children. Because BMI 
+does not measure body fat directly, it should not be used as a diagnostic tool. Instead, 
+BMI should be used as a measure to track weight status in populations and as a 
+screening tool to identify potential weight problems in individuals.\(^1\) <br>
+Adjusting for age and gender is an approach that more closely considers a person&#39;s physical charactericts.</p>
+
+  </div>
+</section>
+<section class="slide " id="slide-4">
+  <div>
+    <h2>References</h2>
+    <ol>
+<li> Department of Health and Human Services, Centre for Disease Control and Prevention, &quot;Body Mass Index: Considerations for Practitioners&quot; </li>
+<li> Qiu, Tian.  &quot;The Adjusted Measure of Body Mass Index and its Impact on Health.&quot; Department of Economics and International Development, University of Bath, 2007.</li>
+</ol>
+
+  </div>
+</section>
+  <div class="progress">
+    <div></div>
+  </div>
+	<script src="libraries/frameworks/shower/shower.js"></script>
+	<!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
+	<script type="text/x-mathjax-config">
+	  MathJax.Hub.Config({
+	    tex2jax: {
+	      inlineMath: [['$','$'], ['\\(','\\)']],
+	      processEscapes: true
+	    }
+	  });
+	</script>
+	<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+	<!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+	</script> -->
+	<script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="libraries/widgets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
+</script>
+<!-- LOAD HIGHLIGHTER JS FILES -->
+	<script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+	<!-- DONE LOADING HIGHLIGHTER JS FILES -->
+	 
+		<!-- Copyright © 2010–2012 Vadim Makeev — pepelsbey.net -->
+	<!-- Photos by John Carey — fiftyfootshadows.net -->
+</body>
+</html>
